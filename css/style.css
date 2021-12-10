@@ -1,0 +1,21 @@
+body{
+
+    background-image: url("../img/401.jpg");
+    background-position: no-repeat;
+    background-size: cover;
+    display: "none";
+}
+
+
+
+.forms{
+    padding: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background : rgba(42, 42, 42, 0.8);
+    color: white;
+    border-radius: 3%;
+    width: 50%;
+}

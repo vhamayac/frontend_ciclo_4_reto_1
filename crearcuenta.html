@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login User</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="forms">
+            <form>
+                <h2 class = "text-center" > Crear Cuenta</h2>
+                <label class="mt-3"><strong>Nombre</strong></label>
+                <input type="text" class="form-control" id="nombre" />
+                <p class="err">Nombre Invalido</p>
+
+                <label class="mt-3"><strong>Email</strong></label>
+                <input type="email" id="email"
+                class="form-control"/>
+                <p class="err">*Email Invalido.</p>
+
+                <label class="mt-3"><strong>Password</strong></label>
+                <input type="password" id="password"
+                class="form-control"/>
+                <p class="err">*El Password Debe Tener Ocho Caracteres
+                    Al Menos Una Letra Mayuscula, Una Letra 
+                    Minuscula, Un Numero, y Un Caracter Especial.
+
+                </p>
+                <label class="mt-3"><strong>Confirmar Password</strong></label>
+                <input type="password" id="passwordc"
+                class="form-control"/>
+                <p class="err">*Password No Coincide.
+                </p>
+
+                <button id="login"
+                class="btn btn-primary mt-3 btn-block"
+                >Entrar</button>
+                <p class="mt-5">No Tiene Una Cuenta? <a href="" class="text-white"> Crear Tu Cuenta</a></p>
+            </form>
+    </div>
+
+    <script src= "js/crear.js" ></script>
+
+</body>
+
+</html>
